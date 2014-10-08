@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF3ADEF19E4E30000F8ECEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3ADEE19E4E30000F8ECEF /* AppDelegate.swift */; };
+		5BF3ADF219E4E30000F8ECEF /* WingmappSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3ADF019E4E30000F8ECEF /* WingmappSwift.xcdatamodeld */; };
+		5BF3ADF419E4E30000F8ECEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3ADF319E4E30000F8ECEF /* ViewController.swift */; };
+		5BF3ADF719E4E30000F8ECEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF3ADF519E4E30000F8ECEF /* Main.storyboard */; };
+		5BF3ADF919E4E30000F8ECEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF3ADF819E4E30000F8ECEF /* Images.xcassets */; };
+		5BF3ADFC19E4E30000F8ECEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF3ADFA19E4E30000F8ECEF /* LaunchScreen.xib */; };
+		5BF3AE0819E4E30000F8ECEF /* WingmappSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3AE0719E4E30000F8ECEF /* WingmappSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF3AE0219E4E30000F8ECEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF3ADE119E4E30000F8ECEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF3ADE819E4E30000F8ECEF;
+			remoteInfo = WingmappSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BF3ADE919E4E30000F8ECEF /* WingmappSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WingmappSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF3ADED19E4E30000F8ECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF3ADEE19E4E30000F8ECEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BF3ADF119E4E30000F8ECEF /* WingmappSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WingmappSwift.xcdatamodel; sourceTree = "<group>"; };
+		5BF3ADF319E4E30000F8ECEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BF3ADF619E4E30000F8ECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF3ADF819E4E30000F8ECEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BF3ADFB19E4E30000F8ECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5BF3AE0119E4E30000F8ECEF /* WingmappSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WingmappSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF3AE0619E4E30000F8ECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF3AE0719E4E30000F8ECEF /* WingmappSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WingmappSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF3ADE619E4E30000F8ECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF3ADFE19E4E30000F8ECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF3ADE019E4E30000F8ECEF = {
+			isa = PBXGroup;
+			children = (
+				5BF3ADEB19E4E30000F8ECEF /* WingmappSwift */,
+				5BF3AE0419E4E30000F8ECEF /* WingmappSwiftTests */,
+				5BF3ADEA19E4E30000F8ECEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF3ADEA19E4E30000F8ECEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3ADE919E4E30000F8ECEF /* WingmappSwift.app */,
+				5BF3AE0119E4E30000F8ECEF /* WingmappSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF3ADEB19E4E30000F8ECEF /* WingmappSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3ADEE19E4E30000F8ECEF /* AppDelegate.swift */,
+				5BF3ADF319E4E30000F8ECEF /* ViewController.swift */,
+				5BF3ADF519E4E30000F8ECEF /* Main.storyboard */,
+				5BF3ADF819E4E30000F8ECEF /* Images.xcassets */,
+				5BF3ADFA19E4E30000F8ECEF /* LaunchScreen.xib */,
+				5BF3ADF019E4E30000F8ECEF /* WingmappSwift.xcdatamodeld */,
+				5BF3ADEC19E4E30000F8ECEF /* Supporting Files */,
+			);
+			path = WingmappSwift;
+			sourceTree = "<group>";
+		};
+		5BF3ADEC19E4E30000F8ECEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3ADED19E4E30000F8ECEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BF3AE0419E4E30000F8ECEF /* WingmappSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3AE0719E4E30000F8ECEF /* WingmappSwiftTests.swift */,
+				5BF3AE0519E4E30000F8ECEF /* Supporting Files */,
+			);
+			path = WingmappSwiftTests;
+			sourceTree = "<group>";
+		};
+		5BF3AE0519E4E30000F8ECEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3AE0619E4E30000F8ECEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF3ADE819E4E30000F8ECEF /* WingmappSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF3AE0B19E4E30000F8ECEF /* Build configuration list for PBXNativeTarget "WingmappSwift" */;
+			buildPhases = (
+				5BF3ADE519E4E30000F8ECEF /* Sources */,
+				5BF3ADE619E4E30000F8ECEF /* Frameworks */,
+				5BF3ADE719E4E30000F8ECEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WingmappSwift;
+			productName = WingmappSwift;
+			productReference = 5BF3ADE919E4E30000F8ECEF /* WingmappSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BF3AE0019E4E30000F8ECEF /* WingmappSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF3AE0E19E4E30000F8ECEF /* Build configuration list for PBXNativeTarget "WingmappSwiftTests" */;
+			buildPhases = (
+				5BF3ADFD19E4E30000F8ECEF /* Sources */,
+				5BF3ADFE19E4E30000F8ECEF /* Frameworks */,
+				5BF3ADFF19E4E30000F8ECEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BF3AE0319E4E30000F8ECEF /* PBXTargetDependency */,
+			);
+			name = WingmappSwiftTests;
+			productName = WingmappSwiftTests;
+			productReference = 5BF3AE0119E4E30000F8ECEF /* WingmappSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF3ADE119E4E30000F8ECEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "___Wingmapp___";
+				TargetAttributes = {
+					5BF3ADE819E4E30000F8ECEF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5BF3AE0019E4E30000F8ECEF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5BF3ADE819E4E30000F8ECEF;
+					};
+				};
+			};
+			buildConfigurationList = 5BF3ADE419E4E30000F8ECEF /* Build configuration list for PBXProject "WingmappSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF3ADE019E4E30000F8ECEF;
+			productRefGroup = 5BF3ADEA19E4E30000F8ECEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF3ADE819E4E30000F8ECEF /* WingmappSwift */,
+				5BF3AE0019E4E30000F8ECEF /* WingmappSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF3ADE719E4E30000F8ECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF3ADF719E4E30000F8ECEF /* Main.storyboard in Resources */,
+				5BF3ADFC19E4E30000F8ECEF /* LaunchScreen.xib in Resources */,
+				5BF3ADF919E4E30000F8ECEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF3ADFF19E4E30000F8ECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF3ADE519E4E30000F8ECEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF3ADF419E4E30000F8ECEF /* ViewController.swift in Sources */,
+				5BF3ADF219E4E30000F8ECEF /* WingmappSwift.xcdatamodeld in Sources */,
+				5BF3ADEF19E4E30000F8ECEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF3ADFD19E4E30000F8ECEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF3AE0819E4E30000F8ECEF /* WingmappSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BF3AE0319E4E30000F8ECEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF3ADE819E4E30000F8ECEF /* WingmappSwift */;
+			targetProxy = 5BF3AE0219E4E30000F8ECEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BF3ADF519E4E30000F8ECEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF3ADF619E4E30000F8ECEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF3ADFA19E4E30000F8ECEF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF3ADFB19E4E30000F8ECEF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF3AE0919E4E30000F8ECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF3AE0A19E4E30000F8ECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BF3AE0C19E4E30000F8ECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WingmappSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BF3AE0D19E4E30000F8ECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WingmappSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BF3AE0F19E4E30000F8ECEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WingmappSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WingmappSwift.app/WingmappSwift";
+			};
+			name = Debug;
+		};
+		5BF3AE1019E4E30000F8ECEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WingmappSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WingmappSwift.app/WingmappSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF3ADE419E4E30000F8ECEF /* Build configuration list for PBXProject "WingmappSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF3AE0919E4E30000F8ECEF /* Debug */,
+				5BF3AE0A19E4E30000F8ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF3AE0B19E4E30000F8ECEF /* Build configuration list for PBXNativeTarget "WingmappSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF3AE0C19E4E30000F8ECEF /* Debug */,
+				5BF3AE0D19E4E30000F8ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BF3AE0E19E4E30000F8ECEF /* Build configuration list for PBXNativeTarget "WingmappSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF3AE0F19E4E30000F8ECEF /* Debug */,
+				5BF3AE1019E4E30000F8ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BF3ADF019E4E30000F8ECEF /* WingmappSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BF3ADF119E4E30000F8ECEF /* WingmappSwift.xcdatamodel */,
+			);
+			currentVersion = 5BF3ADF119E4E30000F8ECEF /* WingmappSwift.xcdatamodel */;
+			path = WingmappSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BF3ADE119E4E30000F8ECEF /* Project object */;
+}
